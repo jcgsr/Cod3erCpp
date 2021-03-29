@@ -1,0 +1,18 @@
+// 29.03.2021
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "Matrizes" << endl;
+  int matrix[3][3] = {
+    {1, 2, 3}, 
+    {4, 5, 6}, 
+    {7, 8, 9}
+  };
+
+  cout << matrix[1][2] << endl;
+  return 0;
+}
