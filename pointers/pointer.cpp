@@ -25,5 +25,29 @@ int main()
   p1 = &y;
   cout << p1 << endl;
   cout << *p1 << endl;
+
+  cout << "\nPonteiros e Array\n";
+  int arr[] = {47, 33, 72, 13, 88};
+  int* pont = &arr[0];
+  cout << pont << endl;
+  cout << *pont << endl;
+
+  pont++;
+  cout << *pont << endl;
+  
+  pont++;
+  cout << *pont << endl;
+
+  cout << "........\n";
+  int w = 123;
+  int* pont2 = &w;
+  cout << pont2 << endl;
+  cout << *pont2 << endl;
+  cout << pont2[0] << endl;
+
+  *pont2 = 321;
+  cout << *pont2 << endl;
+  cout << w << endl;
+
   return 0;
 }
